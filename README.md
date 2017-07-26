@@ -7,7 +7,7 @@ Files:
 
    A test script.  Calls `generateProblem` to randomly generate a test SDP and calls `QCRBASDP`, the main function, to solve the generated SDP.
 
-2. [ A, b, c, seed ] =  generateProblem( m, n, a )
+2. `generateProblem.m`
    
    Generates an SDP instance with variable X that is an nxn symmetric matrix, with m constraints.  
    
